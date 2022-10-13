@@ -1,0 +1,59 @@
+.message {
+    display: grid;
+    justify-content: end;
+    margin-right: 70px;
+}
+
+.imageAndText {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.imageAndText img {
+    height: 70px;
+}
+
+.text {
+    position: relative;
+    margin-right: 10px;
+    background-color: rgba(0, 102, 204, 1);
+    border-radius: 10px 10px 0px 10px;
+    min-width: 150px;
+    font-family: Montserrat;
+    color: rgba(255, 255, 255, 1);
+}
+
+.text:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: radial-gradient(60px at top right, transparent 49%, rgba(0, 102, 204, 1) 51%) no-repeat right bottom;
+}
+
+.name {
+    display: flex;
+    justify-content: end;
+    margin-top: 5px;
+    font-size: 18px;
+    margin-right: 10px;
+
+}
+
+.messageText {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 10px;
+}
+
+.time {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 10px;
+    margin-right: 25px;
+    margin-top: 5px;
+}
